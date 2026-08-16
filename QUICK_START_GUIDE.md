@@ -1,9 +1,3 @@
-# 🚀 DAY 1 QUICK START GUIDE
-
-## ⏱️ Time Estimate: 30 minutes setup + 2-3 hours execution
-
----
-
 ## Step 1: Download Files ✅
 
 You've received 3 files:

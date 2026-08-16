@@ -61,37 +61,6 @@ A bank is experiencing significant customer attrition and losing valuable revenu
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
-
-### Key Findings:
-
-#### 1. **Age Effect**
-- **Average age (Retained)**: ~37 years
-- **Average age (Churned)**: ~45 years
-- **Insight**: Older customers have higher churn tendency
-
-#### 2. **Tenure Effect**
-- **Average tenure (Retained)**: ~5.1 years
-- **Average tenure (Churned)**: ~2.9 years
-- **Insight**: New customers are at higher risk (first 2 years critical)
-
-#### 3. **Geographic Variation**
-- **France**: ~16% churn rate
-- **Germany**: ~32% churn rate
-- **Spain**: ~17% churn rate
-- **Insight**: Germany has significantly higher churn
-
-#### 4. **Account Balance**
-- **Average balance (Retained)**: ~76,000
-- **Average balance (Churned)**: ~89,000
-- **Insight**: Higher balance correlates with churn (possible account closures/transfers)
-
-#### 5. **Product Usage**
-- Customers with more products have lower churn
-- Active members churn less frequently
-
----
-
 ## 🛠️ Data Processing Pipeline
 
 ### 1. **Data Cleaning**
