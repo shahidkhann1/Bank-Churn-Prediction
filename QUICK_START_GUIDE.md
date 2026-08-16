@@ -7,7 +7,7 @@
 ## Step 1: Download Files ✅
 
 You've received 3 files:
-1. `Day_01_Bank_Churn_Prediction.ipynb` - **Main notebook** with all code
+1. `Bank_Churn_Prediction.ipynb` - **Main notebook** with all code
 2. `README.md` - Project documentation
 3. `requirements.txt` - Python dependencies
 
@@ -203,22 +203,6 @@ git push -u origin main
 4. Make it Public (for portfolio)
 5. Click Create Repository
 6. Follow the instructions to push your code
-
----
-
-## 🎯 Checklist: What to Do After Running
-
-- [ ] Run all sections successfully
-- [ ] Verify visualizations appear
-- [ ] Note down key metrics (Accuracy, ROC-AUC, Recall)
-- [ ] Understand why each metric matters
-- [ ] Read README.md for deeper insights
-- [ ] Export notebook as PDF (File → Export As → PDF)
-- [ ] Create GitHub repository (optional but recommended)
-- [ ] Push files to GitHub
-
----
-
 ## ❓ Troubleshooting
 
 ### Issue: "Module not found" error
@@ -254,36 +238,6 @@ gc.collect()  # Free up memory
 2. Run cells in order (don't skip)
 3. Clear output (Cell → Clear Output → Clear All Output)
 
----
-
-## 💡 Pro Tips
-
-### Tip 1: Run Cells in Order
-The notebook is designed to run top-to-bottom. Don't skip sections.
-
-### Tip 2: Read Comments
-Every code cell has comments explaining what's happening. Read them!
-
-### Tip 3: Experiment
-Try modifying parameters:
-```python
-# Change this line to see different results
-rf_model = RandomForestClassifier(n_estimators=50)  # Try 50, 100, 200
-```
-
-### Tip 4: Ask Questions
-In comments, ask yourself:
-- Why did we split 80-20?
-- Why standardize features?
-- What would happen if we changed the threshold?
-
-### Tip 5: Document Your Learning
-Take notes while running:
-- What surprised you?
-- What would you do differently?
-- How would you apply this to a different dataset?
-
----
 
 ## 📚 Learning Resources (While Running)
 
@@ -293,30 +247,6 @@ While running the notebook, you might want to learn more:
 - **Feature Scaling**: https://scikit-learn.org/stable/modules/preprocessing.html
 - **Random Forest**: https://en.wikipedia.org/wiki/Random_forest
 - **Confusion Matrix**: https://en.wikipedia.org/wiki/Confusion_matrix
-
----
-
-## 🎓 After Completion: Next Steps
-
-### Short Term (This Week):
-1. Review your work
-2. Create a PDF report from the notebook
-3. Push to GitHub
-4. Share with your network
-
-### Medium Term (This Month):
-1. Read about class imbalance handling (SMOTE)
-2. Learn hyperparameter tuning (GridSearchCV)
-3. Explore deployment (Flask, FastAPI)
-4. Start Day 2 project
-
-### Long Term (This Quarter):
-1. Build 30-day portfolio
-2. Interview preparation
-3. Apply to Data Science jobs
-4. Contribute to open-source projects
-
----
 
 ## ✅ Success Criteria
 
@@ -328,37 +258,3 @@ You've completed Day 1 successfully when:
 - ✅ You can answer the 5 interview questions
 - ✅ Code is pushed to GitHub (optional)
 
----
-
-## 📞 Need Help?
-
-**During Execution:**
-1. Check the comments in the notebook
-2. Review the README.md section for that topic
-3. Re-run the cell (sometimes helps)
-4. Search the error message online
-
-**After Completion:**
-1. Review the README.md for deeper explanation
-2. Check the Interview Questions section
-3. Read about the business implications
-4. Plan improvements for Day 2
-
----
-
-## 🎉 Ready to Start?
-
-```bash
-# One command to start:
-jupyter notebook Day_01_Bank_Churn_Prediction.ipynb
-```
-
-**Then run each section in order!**
-
-**Estimated time**: 2-3 hours for first run (you'll be faster on Day 2)
-
-Good luck! You've got this! 🚀
-
----
-
-**Questions after Day 1?** Share your notebook link or error messages, and we'll review together!
