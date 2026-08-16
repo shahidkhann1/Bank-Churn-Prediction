@@ -1,9 +1,5 @@
 # 🏦 DAY 1: BANK CUSTOMER CHURN PREDICTION
 
-**AI Engineer Journey - Mentorship Track**
-
----
-
 ## 📋 Project Overview
 
 This is a comprehensive **Binary Classification** project to predict customer churn in banking. The goal is to identify customers likely to leave the bank so the organization can implement proactive retention strategies.
@@ -258,7 +254,7 @@ pip install -r requirements.txt
 
 ### 2. **Run the Notebook**
 ```bash
-jupyter notebook Day_01_Bank_Churn_Prediction.ipynb
+jupyter notebook Bank_Churn_Prediction.ipynb
 ```
 
 ### 3. **Expected Output**
@@ -314,64 +310,7 @@ jupyter notebook Day_01_Bank_Churn_Prediction.ipynb
 - **Random Forest Tutorial**: https://scikit-learn.org/stable/modules/ensemble.html#forests
 - **Feature Importance**: https://christophm.github.io/interpretable-ml-book/
 
-### Next Topics to Learn:
-- Class imbalance handling (SMOTE, class weights)
-- Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
-- Feature selection techniques
-- Cross-validation strategies
-- Model deployment and monitoring
 
----
-
-## ✅ Project Checklist
-
-- [x] Load and explore dataset
-- [x] Perform data cleaning
-- [x] Conduct EDA with visualizations
-- [x] Engineer meaningful features
-- [x] Build and train models
-- [x] Evaluate with multiple metrics
-- [x] Interpret results for business
-- [x] Create visualizations
-- [x] Write comprehensive documentation
-- [ ] Push to GitHub repository
-- [ ] Deploy model as API
-- [ ] Monitor in production
-
----
-
-## 📝 Notes for Improvement
-
-### Potential Enhancements:
-1. Handle class imbalance with SMOTE
-2. Test additional models (XGBoost, SVM, Neural Networks)
-3. Perform hyperparameter tuning with GridSearchCV
-4. Implement k-fold cross-validation
-5. Create SHAP plots for model explainability
-6. Deploy as Flask/FastAPI endpoint
-7. Add real-time monitoring dashboard
-
----
-
-## 📄 License & Attribution
-
-This project is based on the Kaggle Bank Customer Churn Dataset.  
-Created as part of AI Engineer Journey mentorship program.  
-Feel free to use for learning and portfolio purposes.
-
----
-
-## 🤝 Support & Questions
-
-**If you have questions about this project:**
-1. Review the notebook cells with detailed comments
-2. Check the explanations in Section headers
-3. Refer to the Resources section above
-4. Discuss in your AI Engineer community
-
----
-
-## 🎉 Congratulations!
 
 You've completed a full-stack Data Science project from data to insights! This demonstrates:
 - ✅ Technical ML/Python skills
@@ -386,5 +325,3 @@ You've completed a full-stack Data Science project from data to insights! This d
 **Created**: August 15, 2026  
 **Duration**: 2-3 hours  
 **Outcome**: Production-ready churn prediction model  
-
-**Ready for Day 2?** 🚀
